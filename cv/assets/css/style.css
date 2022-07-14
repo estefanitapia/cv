@@ -50,17 +50,12 @@ footer a {
 
 .copyright {
   font-size: 0.9rem;
-  padding-left: 250px;
-  padding-top: 0px;
-  padding-bottom: 10px;
   background-color: #f2f2f2;
+  margin: 0px;
 }
 
 /*---------- Index ----------*/
 .section1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   height: 800px;
   background-image: url(../img/fondo.jpg);
   background-size: cover;
