@@ -88,7 +88,6 @@ h1 {
 }
 
 /*---------- Contacto ----------*/
-
 .form-contacto {
   height: auto;
   background-image: url(../img/fondo-oscuro.jpg);
@@ -96,92 +95,21 @@ h1 {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  display: grid;
-  justify-items: center;
-  align-items: center;
 }
 
 .section2 {
-  height: 75vh;
+  height: 95vh;
   width: 70%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 100px;
+  grid-template-rows: 10px;
   justify-items: center;
   background-color: white;
   border-radius: 15px;
   margin: 5vh 0vh 5vh 0vh;
 }
 
-@media screen and (max-width: 360px) {
-  .section2 {
-    height: 90vh;
-    width: 90%;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(1fr);
-    justify-items: center;
-  }
-
-  .form-nombre input {
-    width: auto;
-  }
-
-  .form-email input {
-    width: auto;
-  }
-
-  .form-comentarios textarea {
-    width: auto;
-  }
-}
-
-@media screen and (max-width: 770px) {
-  .section2 {
-    height: 90vh;
-    width: 90%;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(1fr);
-    justify-items: center;
-  }
-
-  .form-nombre input {
-    width: auto;
-  }
-
-  .form-email input {
-    width: auto;
-  }
-
-  .form-comentarios textarea {
-    width: auto;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .section2 {
-    height: 90vh;
-    width: 70%;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(1fr);
-    justify-items: center;
-  }
-
-  .form-nombre input {
-    width: auto;
-  }
-
-  .form-email input {
-    width: auto;
-  }
-
-  .form-comentarios textarea {
-    width: auto;
-  }
-}
-
 form {
-  display: flex;
-  flex-direction: column;
   width: auto;
   height: auto;
   padding: 0px 10px 0px 10px;
@@ -229,6 +157,18 @@ form h2 {
   background-color: #ffc105;
   border: 1px solid #000000;
   border-radius: 3px;
+}
+
+@media screen and (max-width: 320px) {
+  .section2 {
+    height:110vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section2 {
+    height:110vh;
+  }
 }
 
 /*---------- Sobre mi ----------*/
