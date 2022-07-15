@@ -161,13 +161,13 @@ form h2 {
 
 @media screen and (max-width: 320px) {
   .section2 {
-    height:110vh;
+    height: 110vh;
   }
 }
 
 @media screen and (max-width: 768px) {
   .section2 {
-    height:110vh;
+    height: 110vh;
   }
 }
 
@@ -329,57 +329,16 @@ form h2 {
   border-bottom: #ffc105 solid 2px;
 }
 
-.grilla-galeria {
-  padding-top: 3vh;
-  background-color: white;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(1fr);
-  gap: 1.5vh 1.5vh;
-  padding: 0vh 1.5vh 0vh 1.5vh;
-}
-
 .grilla-item {
   width: 100%;
   height: auto;
   border-radius: 15px;
 }
 
-@media screen and (min-width: 360px) {
-  .portafolio-contenedor {
-    height: auto;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-  }
-
-  .section4 {
-    height: 210vh;
-    width: 90%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-auto-rows: 6, 1fr auto;
-    background-color: white;
-    border-radius: 15px;
-  }
-
-  .grilla-galeria {
-    padding-top: 3vh;
-    background-color: white;
-    display: grid;
-    grid-template-columns: 300px;
-    grid-auto-rows: auto;
-    gap: 1vh 1vh;
-    padding-left: 1.5vh;
-    padding-right: 1.5vh;
-  }
-
-  .grilla-item {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
+.card {
+  border-color: #ffffff;
 }
+
 /*---------- Ubicación ----------*/
 .ubicacion-contenedor {
   height: 120vh;

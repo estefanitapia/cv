@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portafolio</title>
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <!--Style-->
     <link rel="stylesheet" href="../assets/css/style.css" />
     <!--Google Fonts-->
@@ -23,63 +28,116 @@
   <body>
     <!--Header-->
     <header class="encabezado">
-      <nav>
-        <a href="#"
-          ><img class="img-logo" src="../assets/img/logo.png" alt="logo"
-        /></a>
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="./contacto.html">Contacto</a></li>
-          <li><a href="./sobre-mi.html">Sobre mi</a></li>
-          <li><a href="#">Portafolio</a></li>
-          <li><a href="./ubicacion.html">Ubicación</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img class="img-logo" src="../assets/img/logo.png" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse d-flex justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./sobre-mi.html">Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portafolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ubicacion.html">Ubicación</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <!--Main-->
     <main class="portafolio-contenedor">
-      <section class="section4">
-        <h2>Algunos de mis trabajos</h2>
-        <div class="grilla-galeria">
-          <img
-            class="grilla-item item1 wide"
-            src="../assets/img/wireframe.jpeg"
-            alt="imagen wireframe"
-          />
-          <img
-            class="grilla-item item2"
-            src="../assets/img/prototipe.jpeg"
-            alt="imagen prototipo"
-          />
-          <img
-            class="grilla-item item3 tall"
-            src="../assets/img/codigo-js.jpeg"
-            alt="imagen javascript editor"
-          />
-          <img
-            class="grilla-item item1"
-            src="../assets/img/app-blue.jpg"
-            alt="interfaz app blue"
-          />
-          <img
-            class="grilla-item item2 wide"
-            src="../assets/img/app-home.jpg"
-            alt="interfaz app home"
-          />
-          <img
-            class="grilla-item item3"
-            src="../assets/img/flat-mobile-app.jpeg"
-            alt="interfaz app flat"
-          />
+      <section class="section4 pt-3 pb-3">
+        <h2>Portafolio</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4 pt-3">
+          <div class="col">
+            <div class="card h-100">
+              <img
+                class="grilla-item card-img-top"
+                src="../assets/img/wireframe.jpeg"
+                alt="imagen wireframe"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                class="grilla-item card-img-top"
+                src="../assets/img/prototipe.jpeg"
+                alt="imagen prototipo"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                class="grilla-item card-img-top"
+                src="../assets/img/codigo-js.jpeg"
+                alt="imagen javascript editor"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                class="grilla-item card-img-top"
+                src="../assets/img/app-blue.jpg"
+                alt="interfaz app blue"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                class="grilla-item card-img-top"
+                src="../assets/img/app-home.jpg"
+                alt="interfaz app home"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                class="grilla-item card-img-top"
+                src="../assets/img/flat-mobile-app.jpeg"
+                alt="interfaz app flat"
+              />
+            </div>
+          </div>
         </div>
       </section>
     </main>
-    <!--Footer-->
     <footer>
       <!--Footer-->
-      <div class="contenedor-footer">
+      <div
+        class="contenedor-footer d-flex justify-content-between align-items-center"
+      >
         <img class="img-footer" src="../assets/img/logo.png" alt="logo" />
-        <ul class="footer-links">
+        <ul class="footer-links d-flex align-items-center">
           <li>
             <a href="https://www.facebook.com/" target="_blank"
               ><i class="fa fa-facebook" style="font-size: 24px"></i
@@ -97,7 +155,11 @@
           </li>
         </ul>
       </div>
-      <p class="copyright">© Copyright, Estefani Tapia 2022.</p>
+      <p class="copyright pt-3 pb-3 d-flex justify-content-center">
+        © Copyright, Estefani Tapia 2022.
+      </p>
     </footer>
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
