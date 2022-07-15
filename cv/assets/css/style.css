@@ -56,7 +56,7 @@ footer a {
 
 /*---------- Index ----------*/
 .section1 {
-  height: 800px;
+  height: 80vh;
   background-image: url(../img/fondo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -173,19 +173,16 @@ form h2 {
 
 /*---------- Sobre mi ----------*/
 .sección-sobreMi {
-  height: auto;
+  height: 110vh;
   background-image: url(../img/flowers-red.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  display: grid;
-  justify-items: center;
-  align-items: center;
 }
 
 .section3 {
-  height: 70vh;
+  height: auto;
   width: 70%;
   display: grid;
   grid-template-columns: 1fr;
@@ -211,9 +208,13 @@ form h2 {
   width: 800px;
 }
 
+.section3 p {
+  font-size: 1rem
+}
+
 @media screen and (max-width: 360px) {
   .section3 {
-    height: 100vh;
+    height: auto;
     width: 90%;
     display: grid;
     grid-template-columns: 1fr;
@@ -239,11 +240,15 @@ form h2 {
     width: 100%;
     padding-left: 5px;
   }
+
+  .section3 p {
+  font-size: 0.8rem
+}
 }
 
 @media screen and (max-width: 770px) {
   .section3 {
-    height: 100vh;
+    height: auto;
     width: 90%;
     display: grid;
     grid-template-columns: 1fr;
@@ -269,11 +274,15 @@ form h2 {
     width: 100%;
     padding-left: 5px;
   }
+
+  .section3 p {
+  font-size: 0.8rem
+}
 }
 
 @media screen and (max-width: 1200px) {
   .section3 {
-    height: 100vh;
+    height: 105vh;
     width: 90%;
     display: grid;
     grid-template-columns: 1fr;
@@ -299,6 +308,11 @@ form h2 {
     width: 100%;
     padding-left: 5px;
   }
+
+  .section3 p {
+  font-size: 0.8rem
+}
+
 }
 /*---------- Portafolio ----------*/
 .portafolio-contenedor {
@@ -341,7 +355,7 @@ form h2 {
 
 /*---------- Ubicación ----------*/
 .ubicacion-contenedor {
-  height: 120vh;
+  height: 90vh;
   background-image: url(../img/flower-rosada.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -353,7 +367,7 @@ form h2 {
 }
 
 .section5 {
-  height: 88vh;
+  height: auto;
   width: 80%;
   display: flex;
   flex-direction: column;
