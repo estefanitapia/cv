@@ -22,6 +22,11 @@
   padding-left: 30px;
 }
 
+nav div {
+  display: flex;
+  justify-content: flex-end;
+}
+
 /*---------- Footer ----------*/
 .contenedor-footer {
   background-color: whitesmoke;
@@ -106,7 +111,6 @@ h1 {
   justify-items: center;
   background-color: white;
   border-radius: 15px;
-  margin: 5vh 0vh 5vh 0vh;
 }
 
 form {
@@ -192,7 +196,6 @@ form h2 {
   padding-top: 5vh;
   background-color: white;
   border-radius: 15px;
-  margin: 5vh 0vh 5vh 0vh;
 }
 
 .section3 h2 {
@@ -335,7 +338,6 @@ form h2 {
   align-items: center;
   background-color: white;
   border-radius: 15px;
-  margin: 5vh 0vh 5vh 0vh;
 }
 
 .section4 h2 {
