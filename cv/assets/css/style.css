@@ -119,54 +119,10 @@ form {
   padding: 0px 10px 0px 10px;
 }
 
-form h2 {
+.section2 h2 {
   justify-content: center;
   font-size: 2.1rem;
   padding: 5vh 30px 5vh 0px;
-}
-
-.form-nombre {
-  font-size: 1rem;
-  padding-bottom: 2vh;
-}
-
-.form-nombre input {
-  width: 73%;
-}
-
-.form-email {
-  font-size: 1rem;
-  padding-bottom: 2vh;
-}
-
-.form-email input {
-  width: 90%;
-}
-
-.form-comentarios {
-  font-size: 1rem;
-  padding-bottom: 1.5vh;
-}
-
-.form-comentarios textarea {
-  width: 99%;
-}
-
-.form-input {
-  padding: 2vh 10px 1.5vh 0px;
-}
-
-.form-input input {
-  padding: 5px 10px 5px 10px;
-  background-color: #ffc105;
-  border: 1px solid #000000;
-  border-radius: 3px;
-}
-
-@media screen and (max-width: 320px) {
-  .section2 {
-    height: 110vh;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -212,7 +168,7 @@ form h2 {
 }
 
 .section3 p {
-  font-size: 1rem
+  font-size: 1rem;
 }
 
 @media screen and (max-width: 360px) {
@@ -245,8 +201,8 @@ form h2 {
   }
 
   .section3 p {
-  font-size: 0.8rem
-}
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (max-width: 770px) {
@@ -279,8 +235,8 @@ form h2 {
   }
 
   .section3 p {
-  font-size: 0.8rem
-}
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -313,10 +269,10 @@ form h2 {
   }
 
   .section3 p {
-  font-size: 0.8rem
+    font-size: 0.8rem;
+  }
 }
 
-}
 /*---------- Portafolio ----------*/
 .portafolio-contenedor {
   height: auto;

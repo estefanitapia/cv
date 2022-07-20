@@ -1,31 +1,50 @@
 <!DOCTYPE html>
 <html lang="en-es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto</title>
     <!--Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
     <!--Style-->
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css" />
     <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
     <!--Header-->
     <header class="encabezado">
       <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid ">
+        <div class="container-fluid">
           <a class="navbar-brand" href="#"
             ><img class="img-logo" src="../assets/img/logo.png" alt="logo"
           /></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
@@ -50,31 +69,47 @@
       </nav>
     </header>
     <!--Main-->
-    <main class="form-contacto d-flex justify-content-center align-content-center">
-        <section class="section2 mt-5 mb-4">
-          <form class="d-flex flex-column" action="">
-              <h2>Contáctame</h2>
-              <div class="form-nombre">
-                  <label class="form-label"for="exampleFormControlInput1 name" placeholder>Nombre y apellido</label>
-                  <input type="text" class="form-control" id="exampleFormControlInput1 name" placeholder=" Pedro Pérez" required>
-              </div>
-              <div  class="form-email">
-                  <label class="form-label" for="mail">Email</label>
-                  <input class="form-control" type="email" id="exampleFormControlInput1 mail" placeholder="pedroperez@mail.com" required>
-              </div>
-              <div class="form-comentarios">
-                  <label for="exampleFormControlTextarea1" class="form-label">Escribe tu comentario aquí</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder=" comentarios"></textarea>
-              </div>
-              <div>
-                  <label for="newsletter">Desea recibir noticias?</label>
-                  <input type="checkbox" checked id="newsletter">
-              </div>
-              <div class="form-input">
-                  <input type="submit" value="Enviar">
-              </div>
-          </form>
-        </section>  
+    <main
+      class="form-contacto d-flex justify-content-center align-content-center"
+    >
+      <section class="section2 mt-5 mb-4">
+        <form class="d-flex flex-column" action="">
+          <h2>Contáctame</h2>
+          <div class="mb-3">
+            <label class="form-label" for="exampleFormControlInput1"
+              >Nombre y apellido</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder=" Pedro Pérez"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="mail">Email</label>
+            <input
+              class="form-control"
+              type="email"
+              id="exampleFormControlInput1 mail"
+              placeholder="pedroperez@mail.com"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Escribe tu comentario aquí</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="10"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-warning">Enviar</button>
+        </form>
+      </section>
     </main>
     <footer>
       <!--Footer-->
@@ -104,8 +139,16 @@
         © Copyright, Estefani Tapia 2022.
       </p>
     </footer>
-      <!--Bootstrap JS-->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
-</body>
+    <!--Bootstrap JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
