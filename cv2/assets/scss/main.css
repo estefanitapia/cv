@@ -9,12 +9,12 @@
 footer {
   background-color: #f2f2f2;
 }
-footer_li {
+footer li {
   list-style: none;
   text-decoration: none;
   padding-right: 30px;
 }
-footer_li_a {
+footer a {
   text-decoration: none;
 }
 

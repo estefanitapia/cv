@@ -9,13 +9,13 @@
 footer {
     background-color: $color-especial;
 
-    &_li {
+    & li {
         list-style: none;
         text-decoration: none;
         padding-right: 30px;
     }
 
-    &_li_a {
+    & a {
         text-decoration: none;
     }
 }
