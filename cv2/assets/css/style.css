@@ -1,0 +1,73 @@
+/*---------- Header ----------*/
+.encabezado {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 90px;
+}
+
+.img-logo {
+  width: 100px;
+  height: 90px;
+  padding-left: 30px;
+}
+
+nav div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*---------- Footer ----------*/
+.img-footer {
+  width: 130px;
+  height: 120px;
+  padding-left: 30px;
+}
+
+footer li {
+  padding-right: 30px;
+}
+
+
+.footer-links {
+  padding: 30px 0px 50px 0px;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  margin: 0px;
+}
+
+/*---------- Index ----------*/
+.section1 {
+  height: 80vh;
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 2.1rem;
+  padding-top: 22vh;
+}
+
+.main-parrafo {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 150px 1fr 100px;
+  justify-items: center;
+  font-size: 1.2rem;
+  padding-top: 5vh;
+  text-align: center;
+}
+
+@media screen and (max-width: 360px) {
+  .main-parrafo {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 10px);
+    justify-items: center;
+  }
+}
+

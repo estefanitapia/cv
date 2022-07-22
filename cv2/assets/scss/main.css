@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: black;
+}
+
+footer {
+  background-color: #f2f2f2;
+}
+footer_li {
+  list-style: none;
+  text-decoration: none;
+  padding-right: 30px;
+}
+footer_li_a {
+  text-decoration: none;
+}
+
+.encabezado {
+  background-color: whitesmoke;
+}
+
+.contenedor-footer {
+  background-color: whitesmoke;
+}
+
+.copyright {
+  background-color: #f2f2f2;
+}
+
+footer a {
+  color: black;
+}/*# sourceMappingURL=main.css.map */
